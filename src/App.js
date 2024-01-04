@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
+import NavBar from './components/NavBar'
+import HomePage from './components/HomePage'
+import AllEventsPage from './components/AllEventsPage'
+import AboutUsPage from './components/AboutUsPage'
+import ContactUsPage from './components/ContactUsPage'
+import Footer from './components/Footer'
 
 function App() {
+
+  const [events, setEvents] = useState([]);
+  useEffect(() => {
+     fetch('https://my-json-server.typicode.com/spttruong/bobs-events-mock-api')
+        .then((response) => response.json())
+        .then((data) => {
+           console.log(data);
+           setEvents(data);
+        })
+        .catch((err) => {
+           console.log(err.message);
+        });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className='bg-indigo-100'>
+        <NavBar />
+        <Routes>
+          <Route path="/" exact element={<HomePage events={events} />} />
+          <Route path="/events" element={<AllEventsPage events={events}/>} />
+          <Route path="/about-us" element={<AboutUsPage />} />
+          <Route path="/contact-us" element={<ContactUsPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
