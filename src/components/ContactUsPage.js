@@ -10,7 +10,6 @@ const ContactUsPage = () => {
           <div className='py-4 border-b-2'>
             <h3 className='text-2xl text-blue-900'>Bob's Orchestra Hall Box Office Hours:</h3>
             <p className='text-lg'>Monday - Saturday, 2:30 PM - 9:00 PM</p>
-            <p className='italic'>Please note: shows typically start at 6:30 PM</p>
           </div>
 
           <div className='py-4 border-b-2'>

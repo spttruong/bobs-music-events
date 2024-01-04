@@ -36,7 +36,7 @@ const AboutUsPage = () => {
           </div>
         </div>
         
-        <div className="flex flex-wrap justify-between mb-8">
+        <div className="flex flex-wrap justify-center mb-8">
           {/* Top Row */}
           <div className="flex space-x-4">
             {topRowImages.map((image, index) => (

@@ -12,7 +12,7 @@ function App() {
 
   const [events, setEvents] = useState([]);
   useEffect(() => {
-     fetch('https://my-json-server.typicode.com/spttruong/bobs-events-mock-api')
+     fetch('https://bobs-events-mock-api.free.mockoapp.net/events')
         .then((response) => response.json())
         .then((data) => {
            console.log(data);
