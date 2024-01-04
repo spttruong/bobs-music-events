@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/bobs-music-events/static/css/main.85af6c2c.css",
-    "main.js": "/bobs-music-events/static/js/main.061234f1.js",
+    "main.css": "/bobs-music-events/static/css/main.b49288b9.css",
+    "main.js": "/bobs-music-events/static/js/main.b55c29cf.js",
     "static/js/787.dbdc59f0.chunk.js": "/bobs-music-events/static/js/787.dbdc59f0.chunk.js",
     "static/media/logo-centered.png": "/bobs-music-events/static/media/logo-centered.132f6e702d2f7e0d95a5.png",
     "static/media/hamburger-menu-icon.svg": "/bobs-music-events/static/media/hamburger-menu-icon.2e8b080c16d330d8c82f3b2e90f0f001.svg",
     "index.html": "/bobs-music-events/index.html",
-    "main.85af6c2c.css.map": "/bobs-music-events/static/css/main.85af6c2c.css.map",
-    "main.061234f1.js.map": "/bobs-music-events/static/js/main.061234f1.js.map",
+    "main.b49288b9.css.map": "/bobs-music-events/static/css/main.b49288b9.css.map",
+    "main.b55c29cf.js.map": "/bobs-music-events/static/js/main.b55c29cf.js.map",
     "787.dbdc59f0.chunk.js.map": "/bobs-music-events/static/js/787.dbdc59f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85af6c2c.css",
-    "static/js/main.061234f1.js"
+    "static/css/main.b49288b9.css",
+    "static/js/main.b55c29cf.js"
   ]
 }
