@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/spttruong/bobs-music-events/static/css/main.85af6c2c.css",
+    "main.js": "/spttruong/bobs-music-events/static/js/main.1542a67b.js",
+    "static/js/787.dbdc59f0.chunk.js": "/spttruong/bobs-music-events/static/js/787.dbdc59f0.chunk.js",
+    "static/media/logo-centered.png": "/spttruong/bobs-music-events/static/media/logo-centered.132f6e702d2f7e0d95a5.png",
+    "static/media/hamburger-menu-icon.svg": "/spttruong/bobs-music-events/static/media/hamburger-menu-icon.2e8b080c16d330d8c82f3b2e90f0f001.svg",
+    "index.html": "/spttruong/bobs-music-events/index.html",
+    "main.85af6c2c.css.map": "/spttruong/bobs-music-events/static/css/main.85af6c2c.css.map",
+    "main.1542a67b.js.map": "/spttruong/bobs-music-events/static/js/main.1542a67b.js.map",
+    "787.dbdc59f0.chunk.js.map": "/spttruong/bobs-music-events/static/js/787.dbdc59f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85af6c2c.css",
+    "static/js/main.1542a67b.js"
+  ]
+}
